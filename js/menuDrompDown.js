@@ -76,7 +76,7 @@ companyBtn.addEventListener("click", function() {
 
             companyItem.style.fontWeight = "bolder"; 
             //Change imgs white to black 
-            logo.src = "../img/Group 1 (1)/Group 1.png";
+            logo.src = "../img/Group_1_(1)/Group_1.png";
             arrowCompany.src = "../img/Icon feather-chevron-down/Icon feather-chevron-down.png";
         });
     } else {

@@ -6,7 +6,7 @@ $client-title_size:50;
 
 .section_clients{
     width: 100%;
-    height: 80vh;
+    height: auto;
     text-align: center;
 }
 
@@ -15,8 +15,8 @@ $client-title_size:50;
 }
 
 .img_clients{
-    width: 76%;
-    height: 80%;
+    width: 70.5%;
+    height: auto;
     margin: 0 auto 0 auto;
 }
 
@@ -29,8 +29,8 @@ $client-title_size:50;
     color: #343D3F;
     font-family: $font-main-bold;
     font-size: calculate-size($client-title_size);
-    margin: 10% 0 8% 0;
-    text-align: justify;
+    margin: 150px 0 100px 0;
+    text-align: start;
     font-weight: bolder;
 
 }

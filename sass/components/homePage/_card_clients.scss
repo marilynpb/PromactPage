@@ -1,0 +1,126 @@
+/*---Cards---*/
+.card{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0 120px 0;
+    max-width: 1300px;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3.5em;
+    flex-wrap: wrap;
+}
+
+.card__item{
+    flex-basis: 180px;
+    max-width: 200px;
+    flex-grow: 1;
+}
+
+.card__content{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card__title{
+    margin-bottom: 1em;
+}
+
+.section_card_jobs{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3.5em;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.job{
+    padding: 15px 0 15px 0;
+    margin: 20px;
+    border: 0.5px solid #343d3f00;
+}
+
+.job:hover{
+    border: 0.5px solid #343d3f3f;
+    border-radius: 10px;
+    transition: border 0.3s ease-in-out;
+}
+
+
+
+/**Cards MediaQuerys**/
+@media (max-width:1630px) {
+    .section1, .section_job_Openings{
+        padding-left: 190px;
+        padding-right: 190px;
+    }
+}
+
+@media (max-width:1480px) {
+    .section1, .section_job_Openings{
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+}
+
+@media (max-width:1200px) {
+    .section1, .section_job_Openings{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+@media (max-width:1160px) {
+    .section1, .section_job_Openings{
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+}
+
+@media (max-width:850px) {
+    .section1, .section_job_Openings{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .card__item{
+        max-width: 100%;
+    }
+    .section1_div_imgCircle{
+        display: none;
+    }
+}
+
+@media (max-width:680px) {
+    .section1, .section_job_Openings{
+        padding-left: 80px;
+        padding-right: 80px;
+        text-align: center;
+    }
+}
+
+@media (max-width:500px) {
+    .section1, .section_job_Openings{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width:420px) {
+    .section_job_Openings_page-item_divCategory_span{
+        border-radius: 5px;
+    }
+}
+
+
+/*Cards Jobs*/
+@media (max-width:2190px) {
+    .section_card_jobs{
+        padding:  0;
+    }
+}

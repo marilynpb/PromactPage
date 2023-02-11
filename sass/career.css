@@ -1075,13 +1075,13 @@ footer {
   .container_header_nav {
     font-size: 20px;
   }
-  .container_header_div_span {
+  .layout_text_span {
     font-size: 90px;
   }
-  .container_header_div_h1 {
+  .layout_text_h1 {
     font-size: 90px;
   }
-  .container_header_div_h3 {
+  .layout_text_h3 {
     font-size: 30px;
   }
   .spacer_h2 {
@@ -1264,22 +1264,22 @@ footer {
   table {
     margin-top: 40vh;
   }
-  .container_header_div_h1 {
+  .layout_text_h1 {
     font-size: 70px;
   }
-  .container_header_div_span {
+  .layout_text_span {
     font-size: 70px;
   }
-  .container_header_div {
+  .container_layout_content {
     padding-left: 50px;
     padding-right: 50px;
   }
 }
 @media (max-width: 820px) {
-  .container_header_div_h1 {
+  .layout_text_h1 {
     font-size: 70px;
   }
-  .container_header_div_span {
+  .layout_text_span {
     font-size: 70px;
   }
   table {
@@ -1292,14 +1292,14 @@ footer {
   }
 }
 @media (max-width: 375px) {
-  .container_header_div_span {
+  .layout_text_span {
     font-size: 40px;
   }
-  .container_header_div_h1 {
+  .layout_text_h1 {
     font-size: 40px;
     margin-top: 60px;
   }
-  .container_header_div_h3 {
+  .layout_text_h3 {
     font-size: 20px;
   }
 }

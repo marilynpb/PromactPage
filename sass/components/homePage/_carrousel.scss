@@ -1,0 +1,92 @@
+@import "./../../variables.scss";
+@import "./../../base/_typography.scss";
+
+
+//carrousel font size
+$carrousel-title_size:43;
+$carrousel-text_size:20;
+
+.container_main{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.section1{
+    width: 100%;
+    height: 100vh;
+    padding-top: calculate-size(150);
+    padding-bottom: calculate-size(150);
+    justify-content: center;
+}
+
+.section1_divText{
+    width: 38%;
+    float: left;
+    text-align: left;
+    padding-top: calculate-size(40);
+    padding-bottom: calculate-size(120);
+    margin-left: calculate-size(220);
+}
+
+.section1_img{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.section1 p{
+    font-size: $carrousel-text_size;
+}
+
+.section1 h3{
+    font-size: calculate-size($carrousel-title_size);
+}
+
+.section1_title{
+    padding-top: 20%;
+}
+
+.section1_subtitle{
+    margin-bottom: calculate-size(40);
+}
+
+.section1_lastP{
+    margin-bottom: calculate-size(40);
+}
+
+.arrow_transform{
+    transform: rotateY(180deg);
+}
+
+.arrow_line{
+    opacity: 1;
+    text-align: center;
+}
+
+.section1_container_icons{
+    width: 5%;
+    height: 5%;
+    padding-top: calculate-size(70);
+    text-align: center;
+}
+
+.section1_icons{
+    width: 100%;
+    height: 100%;
+    margin-left: calculate-size(40);
+    display: flex;
+    align-items: center;
+}
+
+.section1_icons_divEnd{
+    width: 97.5%;
+    height: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+.section1_icons_divs{
+    margin: calculate-size(10);
+}
+

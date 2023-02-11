@@ -1,0 +1,13 @@
+@import "./variables.scss";
+//base setup
+body{
+    background-color: $color-text-white;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Sans Bold';
+}
+
+@import "./components/homePage/homePage.scss";

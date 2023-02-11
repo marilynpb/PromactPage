@@ -1,0 +1,107 @@
+.career_section1{
+    width: 100%;
+    height: auto;
+    padding-left: 290px;
+    padding-right: 270px;
+    margin-top: 120px;
+    justify-content: center;
+}
+
+.career_section1_h4{
+    text-align: center;
+    font-size: 60px;
+    color: #343D3F;
+    font-family: 'Sans lighter';
+    font-weight: lighter;
+}
+
+.career_section1_div_imgCircle{
+    clear: both;
+    width: 100%;
+    float: right;
+    text-align: end;
+    background-color: #FFFFFF;
+    padding-right: 80px;
+    padding-bottom: 20px;
+}
+
+.career_section1_imgCircle{
+    margin: 0%;
+    padding: 0%;
+}
+
+.career_section1 p{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+.career_section1_title{
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+
+/*--MediaQueries--*/
+@media (max-width:1630px) {
+    .career_section1, .career_section_job_Openings{
+        padding-left: 190px;
+        padding-right: 190px;
+    }
+}
+
+@media (max-width:1480px) {
+    .career_section1, .career_section_job_Openings{
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+}
+
+@media (max-width:1200px) {
+    .career_section1, .career_section_job_Openings{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+@media (max-width:1160px) {
+    .career_section1, .career_section_job_Openings{
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+}
+
+@media (max-width:850px) {
+    .career_section1, .career_section_job_Openings{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .career_card__item{
+        max-width: 100%;
+    }
+    .career_section1_div_imgCircle{
+        display: none;
+    }
+}
+
+@media (max-width:680px) {
+    .career_section1, .career_section_job_Openings{
+        padding-left: 80px;
+        padding-right: 80px;
+        text-align: center;
+    }
+}
+
+@media (max-width:500px) {
+    .career_section1, .career_section_job_Openings{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width:420px) {
+    .career_section_job_Openings_page-item_divCategory_span{
+        border-radius: 5px;
+    }
+}

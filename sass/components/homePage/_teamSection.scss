@@ -1,0 +1,95 @@
+@import "./../../variables.scss";
+@import "./../../base/_typography.scss";
+
+//teamWork
+$teamWorkSection-title_size:80;
+$teamworkSection-second-title_size:60;
+$teamWorkSection-text_size:30;
+$teamWorkSection-alternative-text_size:40;
+
+.section3{
+    margin-top: calculate-size(150);
+    width: 100%;
+    height: 90vh;
+    background-image: url('../img/Group 483/Group\ 483@2x.png');
+    background-repeat: no-repeat padding-box;
+    background-size: 100% 100%;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding-left: calculate-size(50);
+    padding-right: calculate-size(50);
+}
+
+.section3_container_text{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: calculate-size(230);
+    text-align: left;
+    justify-content: left;
+    
+}
+
+.section3_containerEnd_text{
+    width: 100%;
+    height: 50%;
+}
+
+.section3_h1{
+    font-size: calculate-size($teamWorkSection-title_size);
+    text-align: Left;
+    letter-spacing: calculate-size(5);
+}
+
+.section3_h2{
+    margin-top: 0%;
+    font-size: calculate-size($teamworkSection-second-title_size);
+    font-weight: lighter;
+    letter-spacing: calculate-size(2.4);
+}
+
+.section3_p{
+    font-size: calculate-size($teamWorkSection-text_size);
+}
+
+.section3_h3{
+    font-size: calculate-size($teamWorkSection-alternative-text_size);
+    float: left;
+    margin: 0 0 0 12%;
+    font-weight: lighter;
+}
+
+.section3_button{
+    float: right;
+    margin: 0 15% 0 0;
+}
+
+.section3_span{
+    color: $color-text-span;
+}
+
+.section3_containerEnd_text_divFirst{
+    width: 100%;
+    height: calc(100%/3);
+    align-items: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+.section3_containerEnd_text_divSecond{
+    width: 100%;
+    height: calc(100%/3);
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.section3_containerEnd_text_divThree{
+    width: 100%;
+    height: calc(100%/3);
+    align-items: center;
+}

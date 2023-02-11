@@ -1,0 +1,31 @@
+@import "./../../variables.scss";
+@import "./../../base/_typography.scss";
+
+
+
+$font-size-button-main_size:20px;
+
+@mixin button-style{
+    margin: 25px 0 0 0;
+    cursor: pointer;
+    background-color: $color-background-primary-button;
+    border-radius: 20px;
+    border: none;
+    color: $color-text-button;
+    padding: 10px 25px 10px 25px;
+    font-size: 21px;
+    &:hover {
+        transform: scaleX(1.1);
+    }
+}
+
+button {
+    @include button-style;
+}
+
+.finalSection_button{
+    @include button-style;
+    margin-top: calculate-size(40);
+    padding-left: calculate-size(50);
+    padding-right: calculate-size(50);
+}

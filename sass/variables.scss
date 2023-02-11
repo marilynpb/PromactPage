@@ -1,0 +1,16 @@
+//ideal vh, dont use px
+$ideal-viewport-width: 1920; 
+//ask for the real width for viewport
+$current-viewport-width: 100vw; 
+//colors
+$color-background-spacer: #212C85;
+$color-background-primary-button: #F9C216;
+$color-text-span: #F9C216;
+$color-text-white:white;
+$color-text-primary:black;
+$color-text-button:#343D3F;
+
+//this function resize the font depending of the vh width
+@function calculate-size($size){          
+    @return calc($size * ($current-viewport-width / $ideal-viewport-width));
+}

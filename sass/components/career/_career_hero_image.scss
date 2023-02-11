@@ -1,0 +1,14 @@
+.career_section_three_imgs{
+    width: 100%;
+    height:auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.career_section_three_imgLeft,.section_three_imgCenter,.section_three_imgRight{
+    float: right;
+    padding-right: 12%;
+}

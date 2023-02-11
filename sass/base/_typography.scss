@@ -1,0 +1,20 @@
+//font
+@font-face {
+    font-family: "Sans Bold";
+    src: url(../font/product-sans/Product\ Sans\ Regular.ttf) format("truetype");
+}
+//font
+@font-face {
+    font-family: "Sans lighter";
+    src: url(../font/product-sans/Product\ Sans\ Regular.ttf) format("truetype");
+}
+
+//main-text
+$font-main-bold:"Sans Bold";
+$font-main-light:"Sans lighter";
+
+
+$header-title-letter-spacing : 2px;
+$spacer-letter-spacing:2px;
+$teamWorkSection-title-letter-spacing:5px;
+$teamWorkSection-text-letter-spacing:2.4px;

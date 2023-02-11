@@ -1,0 +1,30 @@
+@import "./../../variables.scss";
+@import "./../../base/_typography.scss";
+
+
+//Spacer
+$spacer-text_size:50;
+
+.spacer{
+    width: 100%;
+    height: auto;
+    background-color: $color-background-spacer;
+    color: $color-text-white;
+    text-align: justify;
+    padding-top: calculate-size(150);
+    padding-bottom: calculate-size(150);
+    padding-left: calculate-size(278);
+    padding-right: calculate-size(278);
+}
+
+.spacer_h2{
+    opacity: 100%;
+    font-size: calculate-size($spacer-text_size);
+    letter-spacing: calculate-size(2);
+    padding-bottom: calculate-size(20);
+    font-weight: lighter;
+}
+
+.spacer_span{
+    color: $color-text-span;
+}

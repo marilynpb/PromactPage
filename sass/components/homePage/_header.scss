@@ -1,0 +1,114 @@
+@import "./../../variables.scss";
+@import "./../../base/_typography.scss";
+
+//font sizes
+$header-title_size:100;
+$header-text_size:30;
+
+
+.container_header{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.container_header_overlay{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    z-index: 999;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.565);
+}
+
+.container_header_div{
+    width: 100%;
+    height: 80%;
+    padding-left: calculate-size(140); 
+    padding-right: calculate-size(140); 
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.container_header_div_text{
+    margin: auto;
+    width: 90%;
+    height: auto;
+}
+
+.container_header_div_span{
+    color: $color-background-primary-button;
+    font-size: calculate-size(100); 
+}
+
+.container_header_div_h1{
+    padding-top: calculate-size(290); 
+    color: $color-text-white;
+    font-size: calculate-size($header-title_size);
+    padding-bottom: calculate-size(25);
+    word-spacing: calculate-size(10); 
+    letter-spacing: calculate-size(2);
+    font-weight: bold;
+}
+
+.container_header_div_h3{
+    color: $color-text-white;
+    font-size: calculate-size($header-text_size);
+    text-align: left;
+    font-weight: lighter;
+    padding-bottom: calculate-size(10);
+    opacity: 1;
+}
+
+
+.container_header_divTable{
+    width: 100%;
+    height: 10%;
+    margin: 180px 0 0 0;
+}
+
+table{
+    width: 84%; 
+    margin: 0 auto 0 auto;
+    text-align: start;
+}
+
+th {
+    width: 25%; 
+    background-color: transparent;
+    color: $color-text-white;
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px solid $color-text-white;
+    text-align: start;
+    opacity: 50%;
+}
+
+td{
+    opacity: 50%;
+    color: $color-text-white;
+}
+
+.table_active{
+    opacity: 1;
+    color: $color-text-white;
+}

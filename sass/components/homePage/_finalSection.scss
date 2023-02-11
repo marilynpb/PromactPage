@@ -1,0 +1,44 @@
+@import "./../../variables.scss";
+@import "./../../base/_typography.scss";
+
+//FinalSection
+$FinalSection-title_size:60;
+
+.sectionEnd{
+    margin-top: calculate-size(150); 
+    width: 100%;
+    height: 35vh;
+    padding-left: calculate-size(200); 
+    padding-right: calculate-size(200); 
+    display: flex;
+    text-align: center;
+}
+
+.sectionEnd_hr{
+    width: calculate-size(6); 
+    height: calculate-size(500); 
+    background-color: #333; 
+    transform: rotateY(90deg);
+}
+
+.sectionEnd_div1{
+    width: 50%;
+    height: 50%;
+    border-right: 1px solid #33333314;
+}
+
+.sectionEnd_div2{
+    width: 50%;
+    height: 100%;
+}
+
+.sectionEnd_h1{
+    font-size: calculate-size($FinalSection-title_size); 
+    color: #343D3F;
+}
+
+.sectionEnd_button{
+    margin-top: calculate-size(40); 
+    padding-left: calculate-size(50); 
+    padding-right: calculate-size(50); 
+}

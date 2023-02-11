@@ -1,0 +1,36 @@
+@import "./../../variables.scss";
+@import "./../../base/_typography.scss";
+
+//client font size
+$client-title_size:50;
+
+.section_clients{
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+}
+
+.clients_span{
+    color: $color-text-span;
+}
+
+.img_clients{
+    width: 76%;
+    height: 80%;
+    margin: 0 auto 0 auto;
+}
+
+.img_clients img{
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.clients_h1{
+    color: #343D3F;
+    font-family: $font-main-bold;
+    font-size: calculate-size($client-title_size);
+    margin: 10% 0 8% 0;
+    text-align: justify;
+    font-weight: bolder;
+
+}

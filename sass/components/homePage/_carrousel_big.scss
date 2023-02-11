@@ -1,0 +1,56 @@
+@import "./../../variables.scss";
+@import "./../../base/_typography.scss";
+
+//carrousel font size
+$carrousel-title_size:43;
+$carrousel-text_size:20;
+
+.section2{
+    height: 40vh;
+    margin-top: calculate-size(150);
+    margin-bottom: calculate-size(150);
+}
+
+.arrow_line_section2{
+    opacity: 1;
+    height: 10%;
+    text-align: center;
+}
+
+.section2_container_flex{
+    width: 80%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: calculate-size(10);
+    float: right;
+    margin: 0 11% 0 0;
+}
+
+.section2_divText{
+    width: 100%;
+    height: 100%;
+    padding-left: 8%;
+    padding-right: 10%;
+}
+
+.section2_divText h2{
+    font-size: $carrousel-title_size;
+    margin-top: 20%;
+    margin-bottom: calculate-size(40);
+}
+
+.section2_divImg{
+    width: 100%;
+    height: 100%;
+}
+
+.section2_img{
+    width: 100%;
+    height: 100%;
+}
+
+.section2_divText p{
+    font-size: $carrousel-text_size;
+}

@@ -76,7 +76,7 @@ companyBtn.addEventListener("click", function() {
 
             companyItem.style.fontWeight = "bolder"; 
             //Change imgs white to black 
-            logo.src = "https://marilynpb.github.io/PromactPage/img/Group_1_(1)/Group_1.png";
+            logo.src = "../img/Group 1 (1)/Group 1.png";
             arrowCompany.src = "../img/Icon feather-chevron-down/Icon feather-chevron-down.png";
         });
     } else {
@@ -92,7 +92,7 @@ companyBtn.addEventListener("click", function() {
             companyItem.style.fontWeight = "lighter"; 
             //Change imgs black to white
             logo.src = "../img/Group 1/Group 1.png";
-            arrowCompany.src = "https://marilynpb.github.io/PromactPage/img/Icon feather-chevron-down-white/Icon feather-chevron-down.png";
+            arrowCompany.src = "../img/Icon feather-chevron-down-white/Icon feather-chevron-down.png";
         });
     }
 });

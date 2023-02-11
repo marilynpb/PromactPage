@@ -6,7 +6,7 @@ const companyBtn = document.querySelector(".company-btn");
 const companyDropdown = document.querySelector(".company-dropdown");
 const companyItem = document.querySelector(".companyItem");
 
-const nav = document.querySelector(".header_nav");
+const nav = document.querySelector(".header");
 
 //Imgs
 const logo = document.querySelector("#imgLogo");
@@ -23,12 +23,12 @@ servicesBtn.addEventListener("click", function() {
         //Change BacgroundColor
         nav.style.backgroundColor = "white";
         //Change color all a items
-        const navLinks1 = document.querySelectorAll(".header_nav a");
+        const navLinks1 = document.querySelectorAll(".header a");
         navLinks1.forEach(function(link) {
             link.style.color = "#343D3F";
         });
         //Change color all li items
-        const navLi1 = document.querySelectorAll(".header_nav li");
+        const navLi1 = document.querySelectorAll(".header li");
         navLi1.forEach(function(link) {
             link.style.color = "#343D3F";
 
@@ -39,11 +39,11 @@ servicesBtn.addEventListener("click", function() {
         });
     } else {
         nav.style.backgroundColor = "";
-        const navLinks1 = document.querySelectorAll(".header_nav a");
+        const navLinks1 = document.querySelectorAll(".header a");
         navLinks1.forEach(function(link) {
             link.style.color = "#FFFFFF";
         });
-        const navLi1 = document.querySelectorAll(".header_nav li");
+        const navLi1 = document.querySelectorAll(".header li");
         navLi1.forEach(function(link) {
             link.style.color = "#FFFFFF";
 
@@ -66,11 +66,11 @@ companyBtn.addEventListener("click", function() {
         //Change BacgroundColor
         nav.style.backgroundColor = "white";
         //Change color all a items
-        const navLinks2 = document.querySelectorAll(".header_nav a");
+        const navLinks2 = document.querySelectorAll(".header a");
         navLinks2.forEach(function(link) {
             link.style.color = "#343D3F";
         });
-        const navLi = document.querySelectorAll(".header_nav li");
+        const navLi = document.querySelectorAll(".header li");
         navLi.forEach(function(link) {
             link.style.color = "#343D3F";
 
@@ -81,11 +81,11 @@ companyBtn.addEventListener("click", function() {
         });
     } else {
         nav.style.backgroundColor = "";
-        const navLinks2 = document.querySelectorAll(".header_nav a");
+        const navLinks2 = document.querySelectorAll(".header a");
         navLinks2.forEach(function(link) {
             link.style.color = "#FFFFFF";
         });
-        const navLi2 = document.querySelectorAll(".header_nav li");
+        const navLi2 = document.querySelectorAll(".header li");
         navLi2.forEach(function(link) {
             link.style.color = "#FFFFFF";
 

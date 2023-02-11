@@ -49,7 +49,7 @@ $carrousel-text_size:20;
 }
 
 .section2_icons_divs{
-    margin: calculate-size(10);
+    margin: calculate-size(5);
 }
 
 .arrow_line_section2{
@@ -99,7 +99,4 @@ $carrousel-text_size:20;
     transform: rotate(180deg);
 }
 
-.boton2-anterior:hover, .boton2-siguiente:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-    cursor: pointer;
-}
+

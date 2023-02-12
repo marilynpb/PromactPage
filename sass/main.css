@@ -1820,6 +1820,11 @@ footer {
   }
 }
 /*------ Section End ------*/
+@media (max-width: 1920px) {
+  .container_footer_nav_ulEnd li {
+    padding: 5px;
+  }
+}
 @media (max-width: 1366px) {
   .sectionEnd_h1 {
     font-size: 40px;

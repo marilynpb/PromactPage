@@ -52,21 +52,6 @@
 
 
 /*--MediaQueries--*/
-@media (max-width:800px) {
-    .career_spacer_h2{
-        font-size: 35px;
-    }
-}
-
-@media (max-width:500px) {
-    .career_spacer{
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-    .career_spacer_h2{
-        font-size: 30px;
-    }
-}
 
 @media (max-width:1630px) {
     .career_spacer{
@@ -90,7 +75,7 @@
     }
 }
 
-@media (max-width:1200px) {
+@media (max-width:1366px) {
     .career_spacer{
         padding-left: 150px;
         padding-right: 150px;
@@ -123,6 +108,12 @@
     }
 }
 
+@media (max-width:800px) {
+    .career_spacer_h2{
+        font-size: 35px;
+    }
+}
+
 @media (max-width:680px) {
     .career_spacer{
         padding-left: 80px;
@@ -133,5 +124,15 @@
         padding-left: 80px;
         padding-right: 80px;
         text-align: center;
+    }
+}
+
+@media (max-width:500px) {
+    .career_spacer{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .career_spacer_h2{
+        font-size: 30px;
     }
 }

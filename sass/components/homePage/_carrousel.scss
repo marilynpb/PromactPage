@@ -9,7 +9,6 @@ $carrousel-text_size:20;
 .container_main{
     width: 100%;
     height: auto;
-    /*overflow: hidden*/
 }
 
 .section1{
@@ -87,6 +86,7 @@ $carrousel-text_size:20;
 
 .section1_icons_divs{
     margin: calculate-size(12);
+    z-index: 5;
 }
 
 .arrow_transform{
@@ -140,3 +140,20 @@ $carrousel-text_size:20;
     cursor: pointer;
 }
 
+
+
+@media (max-width: 1820px) {
+    .section1{
+        height: auto;
+        padding-left: 0; 
+    }
+    .section1_divText{
+        width: 40%;
+    }
+    .section1_img{
+        width: 30%;
+    }
+    .diapositiva_carrucel1{
+    width: 100%;
+    }
+}

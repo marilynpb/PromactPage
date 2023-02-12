@@ -399,6 +399,11 @@ header nav ul a:hover {
     text-align: center;
   }
 }
+@media (max-width: 425px) {
+  .services-dropdown {
+    top: 108px;
+  }
+}
 .career_container_header {
   width: 100%;
   height: auto;
